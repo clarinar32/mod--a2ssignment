@@ -1,1 +1,104 @@
 
+*{
+    box-sizing: border-box;
+}
+.main{
+width: 100%;
+}
+h2{
+text-align: center;
+margin-bottom: 50px;
+font-size: 40px;
+}
+.comp{
+width: 33.33%;
+background-color: aqua;
+
+float: right;
+border: 1px,solid;
+border-style: solid;
+
+
+}
+.eng{
+width: 30.33%;
+background-color: rgb(185, 117, 28);
+border:solid,beige;
+border-style: solid;
+float: right;
+margin-right: 10px;
+
+
+}
+.math{
+width: 33.33%;
+background-color: bisque;
+border: 1px,solid,black;
+margin-left: 5px;
+border-style: solid;
+margin-right: 11px;
+}
+.float{
+position: relative;
+left: 70%;
+border-style: solid;
+width: 30%;
+border-right: 1px;
+border-top: 1px;
+text-align: center;
+font-size: 20px;
+padding: 2px;
+}
+.a{background-color: rgb(139, 139, 187);
+
+}
+.b{background-color: rgb(180, 13, 13);
+
+}
+.c{background-color: rgb(48, 175, 133);
+
+}
+@media(min-width: 768px) and (max-width: 991px) {
+.math{
+    width: 50%;
+    margin-right: 5px;
+    margin-left: 0px;
+   
+}
+.eng{
+    width: 100%;
+   float: left;
+    margin-top: 2%;
+    height: 90%;
+    
+    
+}
+.comp{
+    width: 50%;
+    margin-right: 1%;
+    margin-left: 0px;
+   
+    
+    
+}
+}
+@media(max-width:767px){
+    .math{
+    width: 100%;
+    float: left;
+    
+    
+    
+}
+.eng{
+    width: 100%;
+    float: left;
+    margin-bottom: 3%;
+}
+.comp{
+    width: 100%;
+    float: left;
+    margin-bottom: 3%;
+}
+}
+ 
